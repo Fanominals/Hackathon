@@ -4,7 +4,7 @@ type: 'bar',
 data: {
 labels: ["Auto H Ship Side", "Auto H Ship Front", "Auto C Rkt Level", "Auto H Rkt Level", "Auto #C Ship Side", "Auto #H Dropped"],
 datasets: [{
-label: '51',
+label: '#',
 data: [1, 0, 0, 0, 0, 1],
 backgroundColor: [
 'rgba(255, 99, 132, 0.2)',
@@ -43,7 +43,7 @@ type: 'bar',
 data: {
 labels: ["Auto H Ship Side", "Auto H Ship Front", "Auto C Rkt Level", "Auto H Rkt Level", "Auto #C Ship Side", "Auto #H Dropped"],
 datasets: [{
-label: '868',
+label: '#',
 data: [0, 1, 0, 6, 0, 0],
 backgroundColor: [
 'rgba(255, 99, 132, 0.2)',
@@ -81,7 +81,7 @@ type: 'bar',
 data: {
 labels: ["Auto H Ship Side", "Auto H Ship Front", "Auto C Rkt Level", "Auto H Rkt Level", "Auto #C Ship Side", "Auto #H Dropped"],
 datasets: [{
-label: '3044',
+label: '#',
 data: [0, 0, 0, 0, 6, 0],
 backgroundColor: [
 'rgba(255, 99, 132, 0.2)',
@@ -120,7 +120,7 @@ type: 'bar',
 data: {
 labels: ["Auto H Ship Side", "Auto H Ship Front", "Auto C Rkt Level", "Auto H Rkt Level", "Auto #C Ship Side", "Auto #H Dropped"],
 datasets: [{
-label: '4381',
+label: '#',
 data: [2, 5, 0, 2, 0, 0],
 backgroundColor: [
 'rgba(255, 99, 132, 0.2)',
@@ -159,7 +159,7 @@ type: 'bar',
 data: {
 labels: ["Auto H Ship Side", "Auto H Ship Front", "Auto C Rkt Level", "Auto H Rkt Level", "Auto #C Ship Side", "Auto #H Dropped"],
 datasets: [{
-label: '3381',
+label: '#',
 data: [0, 0, 0, 0, 3, 0],
 backgroundColor: [
 'rgba(255, 99, 132, 0.2)',
@@ -197,7 +197,7 @@ type: 'bar',
 data: {
 labels: ["Auto H Ship Side", "Auto H Ship Front", "Auto C Rkt Level", "Auto H Rkt Level", "Auto #C Ship Side", "Auto #H Dropped"],
 datasets: [{
-label: '7651',
+label: '#',
 data: [0, 0, 0, 0, 0, 0],
 backgroundColor: [
 'rgba(255, 99, 132, 0.2)',
