@@ -52,20 +52,600 @@
 <!--/.Navbar -->
 <body>
   <!-- Grid container -->
-  <div class="container">
-
-    <!--Grid row-->
-    <div class="row d-flex justify-content-center">
-  
-      <!--Grid column-->
-      <div class="col-md-6">
-        <canvas id="lineChart"></canvas>
-      </div>
-      <!--Grid column-->
-  
-    </div>
-    <!--Grid row-->
-  
+  <div>
+    <br />
+    <h1 class="text-center"><strong>Teams Data</strong></h1>
+  <p class="w-responsive text-center mx-auto p-2 m-0 " style="background-color: #eee;">On this page, you can view the data for certain teams. The data includes Starting Position, Habline Position, Highest Success, Highest Attempt as well as points scored during Autonomous period.</p> 
+  <br />
+  <p class="w-responsive text-center mx-auto p-0 m-0"></p> 
+  <p class="w-responsive text-center mx-auto p-0 m-0">Teams included on the teams data page</p>
+  <p class="w-responsive text-center mx-auto p-0 m-0">• Team 51: <strong>The Wings of Fire</strong></p>
+  <p class="w-responsive text-center mx-auto p-0 m-0">• Team 868: <strong>TechHOUND</strong></p>
+  <p class="w-responsive text-center mx-auto p-0 m-0">• Team 3044: <strong>0xBE4</strong></p>
+  <p class="w-responsive text-center mx-auto p-0 m-0">• Team 4381: <strong>Twisted Devils</strong></p>
+  <p class="w-responsive text-center mx-auto p-0 m-0">• Team 3381: <strong>Droid Rage</strong></p>
+  <p class="w-responsive text-center mx-auto p-0 m-0">• Team 7651: <strong>Blue Flamingos</strong></p>
+  </div>
+  <br />
+  <div class="accordion w-responsive text-center mx-auto p-0 m-0" id="accordionExample">
+    <div class="card z-depth-0 bordered">
+      <div class="card-header" id="headingOne">
+        <h5 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Team #51
+          </button>
+        </h5>
+      </div>
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+        data-parent="#accordionExample">
+        <div class="card-body">
+          <table class="table table-striped ">
+            <thead class="green white-text default-color">
+              <tr>
+                <th scope="col">Match #</th>
+                <th scope="col">Starting Position</th>
+                <th scope="col">Hab Line</th>
+                <th scope="col">Highest Success</th>
+                <th scope="col">Highest Attempt</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <th scope="row">14</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">28</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">36</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">63</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">71</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">83</th>
+                <td>M</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">92</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <th scope="row">111</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+              </tr>
+            </tbody>
+          </table>
+          <br \>
+          <h3 class="text-center">Points</h3>
+          <div class="d-flex justify-content-center">
+          <canvas id="myChart51" style="max-width: 500px;"></canvas>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="card z-depth-0 bordered">
+      <div class="card-header" id="headingTwo">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Team #868
+          </button>
+        </h5>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          <table class="table table-striped ">
+            <thead class="green white-text default-color">
+              <tr>
+                <th scope="col">Match #</th>
+                <th scope="col">Starting Position</th>
+                <th scope="col">Hab Line</th>
+                <th scope="col">Highest Success</th>
+                <th scope="col">Highest Attempt</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>M</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">12</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">27</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>0</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">35</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">54</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">80</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">90</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">101</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <th scope="row">112</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>2</td>
+              </tr>
+            </tbody>
+          </table>
+          <br \>
+          <h3 class="text-center">Points</h3>
+          <div class="d-flex justify-content-center">
+          <canvas id="myChart868" style="max-width: 500px;"></canvas>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="card z-depth-0 bordered">
+      <div class="card-header" id="headingThree">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Team #3044
+          </button>
+        </h5>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+          <table class="table table-striped ">
+            <thead class="green white-text default-color">
+              <tr>
+                <th scope="col">Match #</th>
+                <th scope="col">Starting Position</th>
+                <th scope="col">Hab Line</th>
+                <th scope="col">Highest Success</th>
+                <th scope="col">Highest Attempt</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">15</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <th scope="row">33</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <th scope="row">45</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <th scope="row">50</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">66</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <th scope="row">72</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <th scope="row">89</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <th scope="row">97</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <th scope="row">106</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+              </tr>
+            </tbody>
+          </table>
+          <br \>
+          <h3 class="text-center">Points</h3>
+          <div class="d-flex justify-content-center">
+          <canvas id="myChart3044" style="max-width: 500px;"></canvas>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="card z-depth-0 bordered">
+      <div class="card-header" id="headingFour">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+            data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Team #4381
+          </button>
+        </h5>
+      </div>
+      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+        <div class="card-body">
+          <table class="table table-striped ">
+            <thead class="green white-text default-color">
+              <tr>
+                <th scope="col">Match #</th>
+                <th scope="col">Starting Position</th>
+                <th scope="col">Hab Line</th>
+                <th scope="col">Highest Success</th>
+                <th scope="col">Highest Attempt</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>R1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">23</th>
+                <td>M</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">29</th>
+                <td>R1</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">40</th>
+                <td>M</td>
+                <td>1</td>
+                <td>3</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th scope="row">57</th>
+                <td>M</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">73</th>
+                <td>M</td>
+                <td>1</td>
+                <td>1</td>
+                <td>2</td>
+              </tr>
+              <tr>
+                <th scope="row">84</th>
+                <td>R1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <th scope="row">98</th>
+                <td>L2</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">104</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>0</td>
+                <td>3</td>
+              </tr>
+            </tbody>
+          </table>
+          <br \>
+          <h3 class="text-center">Points</h3>
+          <div class="d-flex justify-content-center">
+          <canvas id="myChart4381" style="max-width: 500px;"></canvas>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="card z-depth-0 bordered">
+      <div class="card-header" id="headingFive">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+            data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Team #3381
+          </button>
+        </h5>
+      </div>
+      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+        <div class="card-body">
+          <table class="table table-striped ">
+            <thead class="green white-text default-color">
+              <tr>
+                <th scope="col">Match #</th>
+                <th scope="col">Starting Position</th>
+                <th scope="col">Hab Line</th>
+                <th scope="col">Highest Success</th>
+                <th scope="col">Highest Attempt</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>M</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <th scope="row">18</th>
+                <td>M</td>
+                <td>0</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td>M</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <th scope="row">44</th>
+                <td>L1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">55</th>
+                <td>M</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <th scope="row">60</th>
+                <td>R1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">69</th>
+                <td>R1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">87</th>
+                <td>M</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">96</th>
+                <td>R1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <th scope="row">112</th>
+                <td>M</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+              </tr>
+            </tbody>
+          </table>
+          <br \>
+          <h3 class="text-center">Points</h3>
+          <div class="d-flex justify-content-center">
+          <canvas id="myChart3381" style="max-width: 500px;"></canvas>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="card z-depth-0 bordered">
+      <div class="card-header" id="headingSix">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+            data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            Team #7651
+          </button>
+        </h5>
+      </div>
+      <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+        <div class="card-body">
+          <table class="table table-striped ">
+            <thead class="green white-text default-color">
+              <tr>
+                <th scope="col">Match #</th>
+                <th scope="col">Starting Position</th>
+                <th scope="col">Hab Line</th>
+                <th scope="col">Highest Success</th>
+                <th scope="col">Highest Attempt</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">13</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <th scope="row">24</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">51</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">70</th>
+                <td>L2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">88</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">93</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">109</th>
+                <td>R2</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+              </tr>
+            </tbody>
+          </table>
+          <br \>
+          <h3 class="text-center">Points</h3>
+          <div class="d-flex justify-content-center">
+          <canvas id="myChart7651" style="max-width: 500px;"></canvas>
+        </div>
+        </div>
+      </div>
+    </div>
   </div>
   <!-- Grid container -->
   <!-- End your project here-->

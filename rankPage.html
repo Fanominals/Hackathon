@@ -1,13 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
+  <!-- Start your project here-->  
+  <!--Navbar -->
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
+  <a class="navbar-brand" href="homePage.html">Hackathon Scouting App</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+    aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="homePage.html">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="analyzePage.html">Analyze Page</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="rankPage.html">Rank Page</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto nav-flex-icons">
+      <li class="nav-item">
+        <a href= "https://www.instagram.com/team3473/" target= "_blank" class="nav-link waves-effect waves-light">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--/.Navbar -->
 <body>
-  <div>
-    <a lin>
+  <br />
+  <h1 class="text-center"><strong>Match Rankings</strong></h1>
+  <p class="w-responsive text-center mx-auto p-0 m-0">On this page, you can view the best teams in a certain category. </p> 
+  <p class="w-responsive text-center mx-auto p-0 m-0">Teams inluded in the leaderboards include </p>
+  <p class="w-responsive text-center mx-auto p-0 m-0">• Team 51: <strong>The Wings of Fire</strong></p>
+  <p class="w-responsive text-center mx-auto p-0 m-0">• Team 868: <strong>TechHOUND</strong></p>
+  <p class="w-responsive text-center mx-auto p-0 m-0">• Team 3044: <strong>0xBE4</strong></p>
+  <p class="w-responsive text-center mx-auto p-0 m-0">• Team 4381: <strong>Twisted Devils</strong></p>
+  <p class="w-responsive text-center mx-auto p-0 m-0">• Team 3381: <strong>Droid Rage</strong></p>
+  <p class="w-responsive text-center mx-auto p-0 m-0">• Team 7651: <strong>Blue Flamingos</strong></p>
+  <p class="w-responsive text-center mx-auto p-0 m-0">• Team 245: <strong>Adambots</strong></p>
 
-  </a>
+  <hr> 
+  <br />
+  <h2 class="text-center">Hatch Leaderboard</h1>
+  <p class="w-responsive text-center mx-auto p-2 mt-2" style="background-color: #eee;">Leaderboard is sorted from teams with the most hatches scored to the team with the least.</p>
+  <div class="card-body">
+  <table class="table">
+    <thead class="black text-center white-text">
+      <tr>
+        <th scope="col">Team #</th>
+        <th scope="col">Team Name</th>
+        <th scope="col"># of Hatches Scored</th>
+      </tr>
+    </thead>
+    <tbody class="text-center">
+      <tr>
+        <th scope="row">Team 868</th>
+        <td>TechHOUND</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <th scope="row">Team 245</th>
+        <td>Adambots</td>
+        <td>26</td>
+      </tr>
+      <tr>
+        <th scope="row">Team 4381</th>
+        <td>Twisted Devils</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <th scope="row">Team 51</th>
+        <td>The Wings of Fire</td>
+        <td>11</td>
+      </tr>
+      <tr>
+        <th scope="row">Team 7651</th>
+        <td>Blue Flamingos</td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <th scope="row">Team 3044</th>
+        <td>0xBE4</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <th scope="row">Team 3381</th>
+        <td>Droid Rage</td>
+        <td>0</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
+<hr> 
+<br />
+  <h2 class="text-center">Cargo Leaderboard</h1>
+  <p class="w-responsive text-center mx-auto p-2 mt-2" style="background-color: #eee;">Leaderboard is sorted from teams with the most cargo scored to the team with the least.</p>
+  <div class="card-body">
+  <table class="table">
+    <thead class="black text-center white-text">
+      <tr>
+        <th scope="col">Team #</th>
+        <th scope="col">Team Name</th>
+        <th scope="col"># of Cargo Scored</th>
+      </tr>
+    </thead>
+    <tbody class="text-center">
+      <tr>
+        <th scope="row">Team 3381</th>
+        <td>Droid Rage</td>
+        <td>28</td>
+      </tr>
+      <tr>
+        <th scope="row">Team 4381</th>
+        <td>Twisted Devils</td>
+        <td>26</td>
+      </tr>
+      <tr>
+        <th scope="row">Team 3044</th>
+        <td>0xBE4</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <th scope="row">Team 868</th>
+        <td>TechHOUND</td>
+        <td>21</td>
+      </tr>
+      <tr>
+        <th scope="row">Team 7651</th>
+        <td>Blue Flamingos</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <th scope="row">Team 51</th>
+        <td>The Wings of Fire</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <th scope="row">Team 245</th>
+        <td>Adambots</td>
+        <td>7</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- GRAPHS -->
+  <script type="text/javascript" src="js/analyzePage.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
 </body>
 </html>
